@@ -68,14 +68,18 @@ body{
 	display: none;
 }
 section{
-	padding: 100px 0;
+	padding: 40px 0;
 }
 .sec_tit{
-	font-weight: 800;
 	font-size: 48px;
 	line-height: 57px;
 	text-align: center;
 	margin: 0 auto;
+
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
 }
 .sec_txt{
 	font-size: 21px;
@@ -178,3 +182,30 @@ header{
 	font-weight: 500;
 	font-style: normal;
   }
+
+/*main*/
+.main_bg_img{
+	border-radius: 32px;
+}
+.main_tit{
+	font-size: 90px;
+	margin-top: 6%;
+	font-weight: 600;
+	color: #ff4552;
+}
+.main_txt{
+	text-align: center;
+	margin: 2%;
+	font-size: 26px;
+	font-weight: 300;
+	color: rgb(133, 131, 131);
+}
+.main_nav ul{
+	justify-content: normal;
+	gap: 4%;
+	justify-content: center;
+	margin-top: 4%;
+}
+.main_nav ul li{
+	font-size: 30px;
+}
