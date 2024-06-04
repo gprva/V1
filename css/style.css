@@ -141,7 +141,7 @@ section{
 .header_btn{
 	border-radius: 100px;
 	background: #ff4552;
-	font-size: 14px;
+	font-size: 13px;
 }
 .header_btn:hover{
 	background: #ff7780;
@@ -159,6 +159,10 @@ header{
 }
 .nav_link{
 	font-size: 23px;
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
 	color: #ff4552;
 	transition: 0.5s;
 }
@@ -168,3 +172,9 @@ header{
 .ul{
 	gap: 15%;
 }
+.font1{
+	font-family: "Josefin Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+  }
