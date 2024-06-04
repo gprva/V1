@@ -209,3 +209,45 @@ header{
 .main_nav ul li{
 	font-size: 30px;
 }
+/*begin*/
+.begin{
+	/* opacity: 0.3; */
+	background: url(../img/begin1.jpeg)no-repeat;
+	background-position: 50% 50%;
+    background-size: cover;
+}
+.begin_tit{
+	margin: 5% 0;
+	color: #4552ff ;
+	font-size: 66px;
+	font-weight: 600;
+
+}
+.begin_txt{
+	text-align: center;
+    font-size: 23px;
+    color: rgb(103 102 102);
+    width: 757px;
+}
+.begin_card{
+	background: white;
+	padding: 5%;
+	margin-top: 15%;
+	z-index: 100;
+	border-radius: 2rem;
+	width: 66%;
+	margin-left: 16%;
+}
+.begin_btn{
+	width: 25%;
+	padding: 20px;
+	margin: 5% 0 0;
+	background: #4552ff ;
+	font-size: 20px;
+}
+.begin_card_btn{
+	text-align: center;
+}
+.main{
+	margin-bottom: 3%;
+}
