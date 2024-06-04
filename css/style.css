@@ -245,9 +245,34 @@ header{
 	background: #4552ff ;
 	font-size: 20px;
 }
+.begin_btn:hover{
+	background: #767fff ;
+}
 .begin_card_btn{
 	text-align: center;
 }
 .main{
 	margin-bottom: 3%;
+}
+.ourClasses_cards{
+	gap: 3%;
+	margin-top: 5%;
+}
+.ourClasses_card_imges{
+	border-radius: 29px;
+}
+.ourClasses_card_tit{
+	font-size: 26px;
+	margin: 6%;
+	font-weight: 600;
+	color: #ff4552;
+}
+.ourClasses_card_txt{
+	margin: 0 6% 6%;
+	font-size: 20px;
+}
+.ourClasses_btn{
+	width: 35%;
+	margin-left: 6%;
+	padding: 2%;
 }
