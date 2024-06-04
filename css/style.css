@@ -254,10 +254,12 @@ header{
 .main{
 	margin-bottom: 3%;
 }
+.product_cards,
 .ourClasses_cards{
 	gap: 3%;
 	margin-top: 5%;
 }
+.product_card_imges,
 .ourClasses_card_imges{
 	border-radius: 29px;
 }
@@ -271,8 +273,48 @@ header{
 	margin: 0 6% 6%;
 	font-size: 20px;
 }
+.product_btn,
 .ourClasses_btn{
 	width: 35%;
 	margin-left: 6%;
 	padding: 2%;
+}
+
+/* product */
+.product_tit{
+	font-size: 90px;
+	margin-bottom: 2%;
+}
+.product_txt{
+	color: #3d3c3c;
+}
+.product_card_imges{
+	width: 400px;
+	height: 350px;
+}
+.product_card_tit{
+	font-size: 32px;
+	margin: 6%;
+	font-weight: 600;
+	color: #4552ff ;
+}
+.product_btn{
+	background: #4552ff;
+}
+.product_btn:hover{
+	background: #646efe;
+}
+.product_price{
+	font-size: 25px;
+	font-weight: 700;
+	margin: 6%;
+}
+.ourClasses,
+.Product{
+	background: rgb(235, 233, 233);
+}
+
+/* FAQ */
+.FAQ_tit{
+	text-align: center;
 }
