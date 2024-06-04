@@ -55,6 +55,7 @@ body{
 	color: #242424;
 	width: 100%;
 	font-family: 'Manrope', arial, sans-serif;
+	background: #efe8d8;
 }
 .container{
 	max-width: 1325px;
@@ -88,6 +89,8 @@ section{
 }
 .flex{
 	display: flex;
+	justify-content: space-between;
+
 }
 .btn {
 	display: inline-block;
@@ -131,3 +134,37 @@ section{
   .btn:hover {
 	background:rgb(177, 175, 175);
   }
+
+.header_logo{
+	width: 60px;
+}
+.header_btn{
+	border-radius: 100px;
+	background: #ff4552;
+	font-size: 14px;
+}
+.header_btn:hover{
+	background: #ff7780;
+}
+header{
+	margin-top: 30px;
+}
+.headers{
+	background: white;
+	padding: 1%;
+	border-radius: 100px;
+}
+.nav{
+	margin-top: 20px;
+}
+.nav_link{
+	font-size: 23px;
+	color: #ff4552;
+	transition: 0.5s;
+}
+.nav_link:hover{
+	color: #9e9d9d;
+}
+.ul{
+	gap: 15%;
+}
